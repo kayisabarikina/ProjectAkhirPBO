@@ -173,7 +173,7 @@ public class ViewShowTicket extends javax.swing.JFrame {
         hm.pack();
         hm.setLocationRelativeTo(null);
         hm.setDefaultCloseOperation(ViewHome.EXIT_ON_CLOSE);
-        dispose();        // TODO add your handling code here:
+        dispose();       
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 

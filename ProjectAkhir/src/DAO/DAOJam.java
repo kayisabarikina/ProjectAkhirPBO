@@ -103,26 +103,6 @@ public class DAOJam implements InterfaceJam{
         }
     }
 
-//    @Override
-//    public List getById(int id) {
-//        List<ModelJam> listJam = null;
-//        PreparedStatement st = null;
-//        try{
-//            listJam = new ArrayList<ModelJam>();
-//            st = connect.prepareStatement("SELECT FROM jam WHERE id_travel = ?");
-//            st.setInt(1, id);
-//            st.execute();
-//            ResultSet rs = st.executeQuery();
-//            if(rs!=null){
-//                ModelJam tr = new ModelJam();
-//                tr.setJam(rs.getString("jam"));
-//                listJam.add(tr);
-//            }
-//        } catch (SQLException e) {
-//            System.out.println("Error" + e.getMessage());
-//        }
-//        return listJam;
-//    }
     }
 
 

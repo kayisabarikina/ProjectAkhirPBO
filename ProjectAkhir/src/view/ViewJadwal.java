@@ -23,8 +23,7 @@ public class ViewJadwal extends javax.swing.JFrame {
 
     Controller_Order ctrlOrder;
 
-//    List<ModelJam> listJam;
-//    List<ModelTravel> listTravel;
+
     /**
      * Creates new form ViewJadwal
      */
@@ -168,10 +167,10 @@ public class ViewJadwal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTabelMouseClicked
-//        Controller_Order ctrlOrder = new Controller_Order(this);
+
         int row = jTabel.getSelectedRow();
         ctrlOrder.readFieldTravel(row);
-// TODO add your handling code here:
+
 
 
     }//GEN-LAST:event_jTabelMouseClicked

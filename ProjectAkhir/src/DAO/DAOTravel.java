@@ -109,25 +109,5 @@ public class DAOTravel implements InterfaceTravel {
 
     }
 
-//    @Override
-//    public List<ModelTravel> getById(int id) {
-//         List<ModelTravel> listTravel = null;
-//        PreparedStatement st = null;
-//        try{
-//            listTravel = new ArrayList<ModelTravel>();
-//            st = connect.prepareStatement("SELECT FROM travel WHERE id_travel = ?");
-//            st.setInt(1, id);
-//            st.execute();
-//            ResultSet rs = st.executeQuery();
-//            if(rs!=null){
-//                ModelTravel tr = new ModelTravel();
-//                tr.setTujuan(rs.getString("tujuan"));
-//                tr.setHarga(rs.getInt("harga"));
-//                listTravel.add(tr);
-//            }
-//        } catch (SQLException e) {
-//            System.out.println("Error" + e.getMessage());
-//        }
-//        return listTravel;
-//    }
+
 }

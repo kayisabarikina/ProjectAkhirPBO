@@ -22,5 +22,5 @@ public interface InterfaceJam {
 
     public void delete(int parseInt);
 
-//    public List getById(int idJam);
+
 }
